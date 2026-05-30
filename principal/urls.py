@@ -7,6 +7,7 @@ from django.urls import re_path
 from rest_framework import permissions
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
+from equipos.api.router  import router_equipo
 
 # Serializers define the API representation.
 class UserSerializer(serializers.HyperlinkedModelSerializer):
@@ -47,4 +48,5 @@ urlpatterns = [
     path("api-auth/", include("rest_framework.urls")),
     path("", include(router.urls)),
     path("api-auth/", include("rest_framework.urls", namespace="rest_framework")),
+    path('api/',     include(router_equipo.urls)),
 ]
