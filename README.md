@@ -10,7 +10,8 @@ Hecho por: Kevin Guerrero, tambien conocido como froshi :b
 Para ejecutar este proyecto de forma local, se puede seguir estos pasos
 
 ### 1. Clonar el proyecto y activar el entorno
-```git clone https://github.com/Froshi-iuri/Teams-Froshi-Kevin-Guerrero-django.git
+```empty
+git clone https://github.com/Froshi-iuri/Teams-Froshi-Kevin-Guerrero-django.git
 cd Teams-Froshi-Kevin-Guerrero-django
 python -m venv envs/teams
 source envs/teams/bin/activate
