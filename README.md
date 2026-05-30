@@ -39,8 +39,7 @@ Cuando el servidor esté corriendo, puedes acceder a:
  * **Swagger** http://127.0.0.1:8000/swagger/
  * **Login del superusuario** http://localhost:8000/api-auth/login/
 *Nota: La API implementa la seguridad IsAuthenticatedOrReadOnly. Cualquiera puede ver los equipos (GET), pero necesitas iniciar sesión como superusuario para crear, editar o borrar registros (POST, PATCH, DELETE).*
-*El sistema no cuenta con unos apartados funcionales como el admin*
+*El sistema no cuenta con unos apartados funcionales como el admin.*
 *dado que no se necesitaba estrictamente, no fué implementada*
-**dado que el sistema no cuenta con ese apartado, una vez logueado saldrá error**
-**esto sucede porque no hay apartado, pero aún asi, se habrá logueado, ahora sí podrá acceder a http://127.0.0.1:8000/swagger/**
+**Como el sistema no cuenta con el apartado de admin ni otros, una vez logueado saldrá error aún asi, se habrá logueado, ahora sí ya se podrá acceder a http://127.0.0.1:8000/swagger/**
 ```
