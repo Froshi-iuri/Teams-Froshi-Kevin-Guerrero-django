@@ -22,8 +22,7 @@ source envs/teams/bin/activate
 pip install -r requirements.txt
 
 ```
-### 3. Ejecutar las migraciones y crear el administrador
-### el administrador se crea si o si porque no podrás tener acceso a el get ni post ni nada
+### 3. Ejecutar las migraciones y crear el administrador. el administrador se crea si o si porque no podrás tener acceso a el get ni post ni nada
 ```empty
 python manage.py makemigrations
 python manage.py migrate
